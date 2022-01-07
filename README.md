@@ -1,1 +1,0 @@
-# waasnipun.github.io
