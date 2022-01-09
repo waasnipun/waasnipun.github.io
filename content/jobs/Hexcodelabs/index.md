@@ -1,9 +1,9 @@
 ---
 date: '2'
-title: 'Software Engineering Director'
+title: 'Former Software Developer'
 company: 'Hexcodelabs'
 location: 'Colombo, LK'
-range: 'June 2020 - November 2021'
+range: 'March 2021 - October 2021'
 url: 'https://www.hexcodelabs.lk/'
 ---
 

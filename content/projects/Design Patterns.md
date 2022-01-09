@@ -1,6 +1,6 @@
 ---
-date: '2020-10-01'
-title: 'Design Patterns imlpemented in JAVA'
+date: '2021-12-01'
+title: 'Design Patterns implemented in JAVA'
 github: 'https://github.com/waasnipun/DesignPatterns'
 external: ''
 tech:

@@ -1,5 +1,5 @@
 ---
-date: '2021-12-01'
+date: '2021-12-05'
 title: 'Autonomous crop spraying robot with precision RTK & Vision based navigation'
 github: ''
 external: ''
