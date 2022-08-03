@@ -1,5 +1,5 @@
 ---
-date: '2021-08-01'
+date: '2021-01-01'
 title: 'Busy Beaver'
 github: 'https://github.com/waasnipun/busy-beaver'
 external: ''

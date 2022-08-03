@@ -11,4 +11,4 @@ showInProjects: true
 company: 'Hexcodelabs'
 ---
 
-Social media platform for families where family members can find and host different events and tasks within the group. Everyday duties, calendar, meal plan and family chat all in one app.
+Social mobile app for families where family members can find and host different events and tasks within the group. Everyday duties, calendar, meal plan and family chat all in one app.
