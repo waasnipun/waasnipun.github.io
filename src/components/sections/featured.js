@@ -19,7 +19,7 @@ const StyledProjectsGrid = styled.ul`
 const StyledProject = styled.li`
   position: relative;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 50px;
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
 
@@ -290,8 +290,6 @@ const StyledProject = styled.li`
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;

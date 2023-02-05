@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Image Captioning'
 cover: './model.jpg'
 github: 'https://github.com/waasnipun/DL/tree/main/Image-Captioning'

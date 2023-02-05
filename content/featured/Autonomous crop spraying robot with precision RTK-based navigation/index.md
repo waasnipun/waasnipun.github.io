@@ -1,6 +1,6 @@
 ---
-date: '2'
-title: 'Familife V2'
+date: '1'
+title: 'Autonomous crop spraying robot with precision RTK-based navigation'
 cover: './familife-01.png'
 github: 'https://github.com/waasnipun/familife-v2'
 external: 'https://my-blog-cds51jtk2-waasnipun.vercel.app/familife-v-2'

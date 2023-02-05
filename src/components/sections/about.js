@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
-// import { usePrefersReducedMotion } from '@hooks';
+import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -93,8 +93,6 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -127,15 +125,20 @@ const StyledPic = styled.div`
 
 const About = () => {
   const revealContainer = useRef(null);
+  const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
+    if (prefersReducedMotion) {
+      return;
+    }
 
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Nipun Waas.</h2>;
-  const skills = ['Java', 'Python', 'Typescript', 'Flutter', 'Nodejs', 'Kafka', 'Tensorflow', 'ROS',  'Scikit','Numpy' ,'AWS', "Git", "Linux"];
+  const skills = ['Java', 'Python', 'Typescript', 'Flutter', 'Nodejs', 'Kafka', 'Vertx', 'Tensorflow', 'ROS',  'Scikit','Numpy' ,'AWS', "Git", "Linux"];
+
   const items = [one, two];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -150,14 +153,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              A passionate persuer showing interest in the fields of Computer Science and Machine Learning. 
-            </p>
-
-            <p>
-              I’ve had the privilege of working at{' '}
-              <a href="https://www.hexcodelabs.lk">Hexcodelabs</a>,and{' '}
-              <a href="https://www.dialog.lk/">Dialog Axiata</a> as a software engineer. I have build and deployed several 
-              projects throughout my time of being in those companies. 
+            I am a software engineer showing interest in the fields of Computer Science and Machine Learning. 
             </p>
 
             {/* <p>

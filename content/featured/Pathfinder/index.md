@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '4'
 title: 'Pathfinder'
 cover: './sample.png'
 github: 'https://github.com/waasnipun/path_finder'

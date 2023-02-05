@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Former Software Developer'
+title: 'Software Engineer'
 company: 'Hexcodelabs'
 location: 'Colombo, LK'
 range: 'March 2021 - October 2021'

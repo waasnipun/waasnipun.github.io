@@ -14,15 +14,12 @@ const StyledFooter = styled.footer`
 `;
 
 const StyledSocialLinks = styled.div`
-  display: none;
 
-  @media (max-width: 768px) {
-    display: block;
-    width: 100%;
-    max-width: 270px;
-    margin: 0 auto 10px;
-    color: var(--light-slate);
-  }
+  display: block;
+  width: 100%;
+  max-width: 270px;
+  margin: 0 auto 10px;
+  color: var(--light-slate);
 
   ul {
     ${({ theme }) => theme.mixins.flexBetween};
@@ -105,22 +102,9 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
+        {/* <a href="https://github.com/bchiang7/v4">
           <div>Template credits to Brittany Chiang</div>
-
-          {/* {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )} */}
-        </a>
+        </a> */}
       </StyledCredit>
     </StyledFooter>
   );
