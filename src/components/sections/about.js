@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
-import { usePrefersReducedMotion } from '@hooks';
+// import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -127,19 +127,15 @@ const StyledPic = styled.div`
 
 const About = () => {
   const revealContainer = useRef(null);
-  const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    if (prefersReducedMotion) {
-      return;
-    }
 
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Nipun Waas.</h2>;
-  const skills = ['Java', 'Python', 'C++','MySQL', 'Flutter', 'Tensorflow','Pytorch','Scikit','Numpy' ,'Deep Learning' ,'Data Structures & Algorithms', 'Firebase', 'AWS', 'Adobe Illustrator'];
+  const skills = ['Java', 'Python', 'Typescript', 'Flutter', 'Nodejs', 'Kafka', 'Tensorflow', 'ROS',  'Scikit','Numpy' ,'AWS', "Git", "Linux"];
   const items = [one, two];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -154,8 +150,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            A passionate persuer showing interest in the fields of Computer Science and Machine Learning. 
-            A quick learner with a can-do attitude willing to take up challenges and passionate to dig deep into an area of interest.
+              A passionate persuer showing interest in the fields of Computer Science and Machine Learning. 
             </p>
 
             <p>
