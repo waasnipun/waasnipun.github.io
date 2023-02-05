@@ -1,14 +1,16 @@
 ---
 date: '1'
 title: 'Autonomous crop spraying robot with precision RTK-based navigation'
-cover: './familife-01.png'
-github: 'https://github.com/waasnipun/familife-v2'
-external: 'https://my-blog-cds51jtk2-waasnipun.vercel.app/familife-v-2'
+cover: './fyp.png'
+github: 'https://github.com/waasnipun/fyp-report/blob/main/Final_Report.pdf'
+external: 'https://www.youtube.com/watch?v=jzwTnI934us&t=29s&ab_channel=DepartmentofElectronicandTelecommunicationEngineering%2CUniversityofMoratuwa'
 tech:
-  - Flutter
-  - Firebase
-  - IOS
-company: 'Hexcodelabs'
+  - ROS
+  - Tensorflow
+  - TensorRT
+  - C++
+  - Python
+company: 'University of Moratuwa'
 ---
 
-Social media platform for families where family members can find and host different events and tasks within the group. Everyday duties, calendar, meal plan and family chat all in one app.
+Developed an autonomous robot which navigates through a user defined path using RTK and deep learning. I developed the machine vision system for the robot to detect trees by designing and training deep-learning object detector models.

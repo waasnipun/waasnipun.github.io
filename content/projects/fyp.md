@@ -1,16 +1,15 @@
 ---
-date: '2021-12-05'
-title: 'Autonomous crop spraying robot with precision RTK & Vision based navigation'
-github: ''
-external: ''
+date: '2022-04-28'
+title: 'Autonomous crop spraying robot with precision RTK-based navigation'
+github: 'https://github.com/waasnipun/fyp-report/blob/main/Final_Report.pdf'
+external: 'https://www.youtube.com/watch?v=jzwTnI934us&t=29s&ab_channel=DepartmentofElectronicandTelecommunicationEngineering%2CUniversityofMoratuwa'
 tech:
-  - Final year project
-  - Robotics
-  - Deep learning
   - ROS
-  - Jetson Nano
+  - Tensorflow
+  - TensorRT
+  - C++
+  - Python
 company: 'University of Moratuwa'
-showInProjects: true
 ---
 
-Developing an autonomous robot which navigates through a user defined path using RTK and deep learning. This is currently ongoing project and I'm involved in developing the machine vision system and the robot. 
+Developed an autonomous robot which navigates through a user defined path using RTK and deep learning. I developed the machine vision system for the robot to detect trees by designing and training deep-learning object detector models.

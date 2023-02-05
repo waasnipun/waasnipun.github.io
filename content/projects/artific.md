@@ -1,5 +1,5 @@
 ---
-date: '2021-09-01'
+date: '2021-01-01'
 title: 'Artific'
 github: 'https://github.com/waasnipun/artific'
 external: 'https://pypi.org/project/artific/'
