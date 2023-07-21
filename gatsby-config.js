@@ -122,7 +122,7 @@ module.exports = {
               // This adds a new language definition to Prism or extend an already
               // existing language definition. More details on this option can be
               // found under the header "Add new language definition or extend an
-              // existing language" below.
+              // existing language" below
               languageExtensions: [
                 {
                   language: 'superscript',
