@@ -5,7 +5,7 @@ module.exports = {
     title: 'Nipun Waas',
     description:
       'My personal website',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://waasnipun.github.io/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@nipun_waas',
   },

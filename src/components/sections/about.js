@@ -137,7 +137,7 @@ const About = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Nipun Waas.</h2>;
-  const skills = ['Java', 'Python', 'Typescript', 'Flutter', 'Nodejs', 'Kafka', 'Vertx', 'Tensorflow', 'ROS',  'Scikit','Numpy' ,'AWS', "Git", "Linux"];
+  const skills = ['Java', 'Python', 'Typescript', 'C++', 'Flutter', 'Nodejs', 'ROS'];
 
   const items = [one, two];
   return (
