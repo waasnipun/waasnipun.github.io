@@ -137,7 +137,7 @@ const About = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Nipun Waas.</h2>;
-  const skills = ['Java', 'Python', 'Typescript', 'C++', 'Flutter', 'Nodejs', 'ROS'];
+  const skills = ['C/C++', ,'Matlab', 'Python', 'Pytorch', 'Java', 'LabView', 'SystemVerilog', 'ROS'];
 
   const items = [one, two];
   return (
@@ -153,7 +153,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            I am a software engineer showing interest in the fields of Computer Science and Machine Learning. 
+            Welcome to my digital haven! I'm passionate about digital design, fascinated by the intricacies of embedded systems, and thrive on the challenges of programming.
             </p>
 
             {/* <p>
